@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.user-img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+}
+#photo{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+#file{
+   display: none;
+}
+#uploadbtn{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    padding: 6px 6px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #fff;
+    background-color: rgb(173, 173, 172,0.801) ;
+
+}
